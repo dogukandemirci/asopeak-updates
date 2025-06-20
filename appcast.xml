@@ -3,22 +3,22 @@
      xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
 
-  <channel>
-    <title>AsoPeak Updates</title>
-    <link>https://dogukandemirci.github.io/asopeak-updates/</link>
-    <description>Latest updates for AsoPeak</description>
-    <language>en</language>
+<channel>
+  <title>AsoPeak Updates</title>
+  <link>https://dogukandemirci.github.io/asopeak-updates/</link>
+  <description>Latest updates for AsoPeak</description>
+  <language>en</language>
 
-    <item>
-      <title>Version 1.0.0</title>
-      <pubDate>Fri, 20 Jun 2025 16:00:00 +0300</pubDate>
-      <enclosure
-        url="https://dogukandemirci.github.io/asopeak-updates/AsoPeakApp-1.0.0.zip"
-        sparkle:version="1.0.0"
-        sparkle:shortVersionString="1.0.0"
-        sparkle:edSignature="auw53RzE+jQHovkoanilnlzjL4GkrLq+ci55rmndX6G/TKSnkZBs6xM/Qq6RSdJGyAu/LrK+kBoChfB7unKlBw=="
-        length="6693636"
-        type="application/octet-stream"/>
-    </item>
-  </channel>
+  <item>
+    <title>Version 1.0.0</title>
+    <pubDate>Fri, 20 Jun 2025 19:45:00 +0300</pubDate>
+    <enclosure
+      url="https://dogukandemirci.github.io/asopeak-updates/AsoPeakApp-1.0.0.zip"
+      sparkle:version="100"
+      sparkle:shortVersionString="1.0.0"
+      sparkle:edSignature="ODsoHhn9hzbQaI2ZnrrkvPA31SDPbYGuiqlZ+1y0rK3HV6Um9myptSDLR2Zv1C1w7rJeTY25Hi7Qp0WqX+dLCA=="
+      length="6659588"
+      type="application/octet-stream"/>
+  </item>
+</channel>
 </rss>
