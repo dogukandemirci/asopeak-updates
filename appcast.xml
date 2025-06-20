@@ -4,21 +4,20 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
 
   <channel>
-    <title>AsoPeak Releases</title>
-    <link>https://yourdomain.com/appcast.xml</link>
-    <description>Updates for the AsoPeak App</description>
+    <title>AsoPeak Updates</title>
+    <link>https://dogukandemirci.github.io/asopeak-updates/</link>
+    <description>Latest updates for AsoPeak</description>
     <language>en</language>
 
     <item>
       <title>Version 1.0.0</title>
-      <sparkle:releaseNotesLink>https://yourdomain.com/release-notes/1.0.0.html</sparkle:releaseNotesLink>
       <pubDate>Fri, 20 Jun 2025 16:00:00 +0300</pubDate>
       <enclosure
-        url="https://yourdomain.com/downloads/AsoPeakApp-1.0.0.zip"
+        url="https://dogukandemirci.github.io/asopeak-updates/AsoPeakApp-1.0.0.zip"
         sparkle:version="1.0.0"
         sparkle:shortVersionString="1.0.0"
-        length="6693636"
         sparkle:edSignature="auw53RzE+jQHovkoanilnlzjL4GkrLq+ci55rmndX6G/TKSnkZBs6xM/Qq6RSdJGyAu/LrK+kBoChfB7unKlBw=="
+        length="6693636"
         type="application/octet-stream"/>
     </item>
   </channel>
