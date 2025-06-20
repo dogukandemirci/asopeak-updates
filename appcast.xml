@@ -8,15 +8,16 @@
   <link>https://dogukandemirci.github.io/asopeak-updates/</link>
   <description>Latest updates for AsoPeak</description>
   <language>en</language>
+
   <item>
     <title>Version 1.0.0</title>
-    <pubDate>Tue, 17 Jun 2025 14:00:00 +0300</pubDate>
+    <pubDate>Fri, 21 Jun 2025 10:00:00 +0300</pubDate>
     <enclosure
-      url="https://dogukandemirci.github.io/asopeak-updates/AsoPeakApp-1.0.0.zip"
-      sparkle:version="1.0.1"
-      sparkle:shortVersionString="1.0.1"
-      sparkle:edSignature="YeIs8kCAvOVrDp7LLEuZj6e5qI66bxNIE5Uxc6J8NpwT9cwRzyrXLb0/lIdApnmNt34Dxf0npkckqHyVW8qcAg=="
-      length="6649702"
+      url="https://dogukandemirci.github.io/asopeak-updates/AsoPeak-1.0.0.zip"
+      sparkle:version="1.0.0"
+      sparkle:shortVersionString="1.0.0"
+      sparkle:edSignature="7iQcpJ4kE4Pw9qbFScO6s7Mm2ehb7izEEFb/XzQmnnt3eHIT3VrLWu5b/RtVRJOhI09d1bdqaiA50WRZkmQ8Bw=="
+      length="6669870"
       type="application/octet-stream"/>
   </item>
 </channel>
