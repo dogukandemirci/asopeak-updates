@@ -1,5 +1,14 @@
 export const changelogEntries = [
   {
+    version: '1.0.1',
+    date: 'May 7, 2026',
+    type: 'fix',
+    changes: [
+      "🛠️ Fix minor macOS 26 bugs.",
+    ]
+  },
+
+  {
     version: '1.0.0',
     date: 'May 7, 2026',
     type: 'major',
