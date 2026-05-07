@@ -1,5 +1,14 @@
 export const changelogEntries = [
   {
+    version: '1.0.4',
+    date: 'May 7, 2026',
+    type: 'improvement',
+    changes: [
+      "AsoPeak is now faster, cleaner, and sharper than ever 🚀",
+    ]
+  },
+
+  {
     version: '1.0.3',
     date: 'May 7, 2026',
     type: 'improvement',
