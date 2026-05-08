@@ -1,5 +1,14 @@
 export const changelogEntries = [
   {
+    version: '1.0.6',
+    date: 'May 8, 2026',
+    type: 'fix',
+    changes: [
+      "Fixed a startup crash that affected some macOS 14 users.",
+    ]
+  },
+
+  {
     version: '1.0.5',
     date: 'May 8, 2026',
     type: 'fix',
