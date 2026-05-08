@@ -1,5 +1,14 @@
 export const changelogEntries = [
   {
+    version: '1.0.5',
+    date: 'May 8, 2026',
+    type: 'fix',
+    changes: [
+      "Fixed a crash that happened when AsoPeak was launched in the background at login.",
+    ]
+  },
+
+  {
     version: '1.0.4',
     date: 'May 7, 2026',
     type: 'improvement',
