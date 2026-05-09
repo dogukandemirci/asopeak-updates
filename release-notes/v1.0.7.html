@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AsoPeak 1.0.7 — What's New</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #0f172a;
+    --text-muted: #64748b;
+    --link: rgb(54, 91, 219);
+    --border: rgba(15, 23, 42, 0.08);
+    --badge-bg: #ffe4e6;
+    --badge-text: #9f1239;
+    --badge-border: #fecdd3;
+    --accent: #f43f5e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b1020;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --link: rgb(140, 168, 255);
+      --border: rgba(255, 255, 255, 0.08);
+      --badge-bg: rgba(244,63,94,0.18);
+      --badge-text: #fda4af;
+      --badge-border: rgba(244,63,94,0.30);
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  main {
+    max-width: 460px;
+    margin: 0 auto;
+    padding: 22px 24px 28px;
+  }
+  .badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 999px;
+    background: var(--badge-bg);
+    color: var(--badge-text);
+    border: 1px solid var(--badge-border);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+  h1 {
+    margin: 0 0 6px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  .meta {
+    margin: 0 0 18px;
+    color: var(--text-muted);
+    font-size: 12px;
+  }
+  ul.changes {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--border);
+  }
+  ul.changes li {
+    padding: 12px 0 12px 22px;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+  }
+  ul.changes li::before {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 19px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  footer {
+    margin-top: 18px;
+    text-align: right;
+  }
+  footer a {
+    color: var(--link);
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<main>
+  <div class="badge">Fix</div>
+  <h1>What's new in 1.0.7</h1>
+  <p class="meta">May 9, 2026</p>
+  <ul class="changes">
+    <li>Fixed a rare crash that could happen during searches.</li>
+  </ul>
+  <footer><a href="https://asopeak.app/changelog">View all releases →</a></footer>
+</main>
+</body>
+</html>
