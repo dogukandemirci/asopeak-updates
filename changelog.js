@@ -1,5 +1,14 @@
 export const changelogEntries = [
   {
+    version: '1.0.7',
+    date: 'May 9, 2026',
+    type: 'fix',
+    changes: [
+      "Fixed a rare crash that could happen during searches.",
+    ]
+  },
+
+  {
     version: '1.0.6',
     date: 'May 8, 2026',
     type: 'fix',
