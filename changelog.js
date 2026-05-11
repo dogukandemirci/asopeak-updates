@@ -1,5 +1,14 @@
 export const changelogEntries = [
   {
+    version: '1.0.8',
+    date: 'May 11, 2026',
+    type: 'improvement',
+    changes: [
+      "Improvements to the keyword adding flow.",
+    ]
+  },
+
+  {
     version: '1.0.7',
     date: 'May 9, 2026',
     type: 'fix',
