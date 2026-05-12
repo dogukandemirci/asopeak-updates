@@ -1,5 +1,16 @@
 export const changelogEntries = [
   {
+    version: '1.0.9',
+    date: 'May 12, 2026',
+    type: 'improvement',
+    changes: [
+      "Daily keyword and rating updates are now more reliable.",
+      "Improved recovery when background updates are interrupted.",
+      "Daily Updates status is clearer and easier to understand.",
+    ]
+  },
+
+  {
     version: '1.0.8',
     date: 'May 11, 2026',
     type: 'improvement',
