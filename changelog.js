@@ -1,5 +1,56 @@
 export const changelogEntries = [
   {
+    version: '1.1.0',
+    date: 'May 19, 2026',
+    type: 'feature',
+    changes: [
+      "Review Insights: analyze your App Store reviews with your own AI assistant, right inside AsoPeak. Available with AsoPeak Pro.",
+      "AsoPeak runs a small MCP server locally on your Mac. Turn it on in Settings, then connect Claude or another MCP-capable assistant using the MCP URL or the ready-made setup command.",
+      "Analyze an app you already track, or just paste an App Store link into the prompt — AsoPeak adds that app for you and analyzes it.",
+      "Choose how deep to analyze: up to 50, 100, or 150 reviews per store, across up to 3 stores.",
+      "Let AsoPeak pick the best App Store countries automatically, or choose specific stores yourself.",
+      "Copy a ready-to-use analysis prompt, paste it into your AI assistant, and it collects the public reviews and builds the report for you.",
+      "The report covers an overview, what users love and complain about, feature requests, bug reports, pricing feedback, where users get confused, country differences, and recommended actions ranked by urgency.",
+      "View the report in Summary or Details mode, and export it with Copy Summary, Copy Markdown, or a PDF.",
+      "Reports are saved in AsoPeak and stay on your Mac; deleting a report also removes its collected reviews.",
+      "New home dashboard to quickly add an app, jump back to recent apps, and start Review Insights or the MCP server from one place.",
+      "The keyword trend popup now shows the full history for the selected date range instead of only the last 15 entries.",
+      "Fixed the same app being added to your watchlist more than once for a platform.",
+      "Fixed the keyword trend chart so days when the app wasn't ranked are displayed correctly instead of distorting the chart.",
+    ],
+    sections: [
+      {
+        type: 'feature',
+        changes: [
+          "Review Insights: analyze your App Store reviews with your own AI assistant, right inside AsoPeak. Available with AsoPeak Pro.",
+          "AsoPeak runs a small MCP server locally on your Mac. Turn it on in Settings, then connect Claude or another MCP-capable assistant using the MCP URL or the ready-made setup command.",
+          "Analyze an app you already track, or just paste an App Store link into the prompt — AsoPeak adds that app for you and analyzes it.",
+          "Choose how deep to analyze: up to 50, 100, or 150 reviews per store, across up to 3 stores.",
+          "Let AsoPeak pick the best App Store countries automatically, or choose specific stores yourself.",
+          "Copy a ready-to-use analysis prompt, paste it into your AI assistant, and it collects the public reviews and builds the report for you.",
+          "The report covers an overview, what users love and complain about, feature requests, bug reports, pricing feedback, where users get confused, country differences, and recommended actions ranked by urgency.",
+          "View the report in Summary or Details mode, and export it with Copy Summary, Copy Markdown, or a PDF.",
+          "Reports are saved in AsoPeak and stay on your Mac; deleting a report also removes its collected reviews.",
+        ]
+      },
+      {
+        type: 'improvement',
+        changes: [
+          "New home dashboard to quickly add an app, jump back to recent apps, and start Review Insights or the MCP server from one place.",
+          "The keyword trend popup now shows the full history for the selected date range instead of only the last 15 entries.",
+        ]
+      },
+      {
+        type: 'fix',
+        changes: [
+          "Fixed the same app being added to your watchlist more than once for a platform.",
+          "Fixed the keyword trend chart so days when the app wasn't ranked are displayed correctly instead of distorting the chart.",
+        ]
+      },
+    ]
+  },
+
+  {
     version: '1.0.9',
     date: 'May 12, 2026',
     type: 'improvement',
