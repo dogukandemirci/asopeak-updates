@@ -1,5 +1,24 @@
 export const changelogEntries = [
   {
+    version: '1.1.1',
+    date: 'May 20, 2026',
+    type: 'fix',
+    changes: [
+      "Fixed an issue where Review Insights could fail to generate a report.",
+      "Fixed Codex CLI not connecting to AsoPeak's MCP server.",
+    ],
+    sections: [
+      {
+        type: 'fix',
+        changes: [
+          "Fixed an issue where Review Insights could fail to generate a report.",
+          "Fixed Codex CLI not connecting to AsoPeak's MCP server.",
+        ]
+      },
+    ]
+  },
+
+  {
     version: '1.1.0',
     date: 'May 19, 2026',
     type: 'feature',
