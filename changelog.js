@@ -1,5 +1,24 @@
 export const changelogEntries = [
   {
+    version: '1.2.0',
+    date: 'May 25, 2026',
+    type: 'feature',
+    changes: [
+      "Discover keywords — find the most-searched App Store terms in any country directly from Add Keywords. Search by name, filter by category, and add several in one go.",
+      "Trend signals — every discovered keyword shows how its popularity moved versus last month, with a NEW badge for fresh entries to the top list.",
+    ],
+    sections: [
+      {
+        type: 'feature',
+        changes: [
+          "Discover keywords — find the most-searched App Store terms in any country directly from Add Keywords. Search by name, filter by category, and add several in one go.",
+          "Trend signals — every discovered keyword shows how its popularity moved versus last month, with a NEW badge for fresh entries to the top list.",
+        ]
+      },
+    ]
+  },
+
+  {
     version: '1.1.1',
     date: 'May 20, 2026',
     type: 'fix',
