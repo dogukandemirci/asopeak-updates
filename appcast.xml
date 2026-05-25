@@ -2,6 +2,12 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>Version 1.2.0</title>
+      <pubDate>Mon, 25 May 2026 18:59:04 +0000</pubDate>
+      <sparkle:releaseNotesLink>https://dogukandemirci.github.io/asopeak-updates/release-notes/v1.2.0.html</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/dogukandemirci/asopeak-updates/releases/download/v1.2.0/AsoPeak.dmg" length="10561750" type="application/octet-stream" sparkle:edSignature="wDSYt8urTBFpARiM86gGa3HH/C56j4INHQ9DdtvsE8rQHavE3LwEKjRAxIdJ99zeSjqpzHZ04NocOgfHyIppBg==" sparkle:version="12" sparkle:shortVersionString="1.2.0" />
+    </item>
+    <item>
       <title>Version 1.1.1</title>
       <pubDate>Wed, 20 May 2026 13:45:17 +0000</pubDate>
       <sparkle:releaseNotesLink>https://dogukandemirci.github.io/asopeak-updates/release-notes/v1.1.1.html</sparkle:releaseNotesLink>
