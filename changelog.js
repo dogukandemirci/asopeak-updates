@@ -1,5 +1,26 @@
 export const changelogEntries = [
   {
+    version: '1.0.1',
+    date: 'November 15, 2026',
+    type: 'improvement',
+    changes: [
+      "The Daily Report is easier to read: click any summary to see its keywords.",
+      "Improved keyword popularity for all languages.",
+      "A cleaner look across the app, plus stability improvements.",
+    ],
+    sections: [
+      {
+        type: 'improvement',
+        changes: [
+          "The Daily Report is easier to read: click any summary to see its keywords.",
+          "Improved keyword popularity for all languages.",
+          "A cleaner look across the app, plus stability improvements.",
+        ]
+      },
+    ]
+  },
+
+  {
     version: '1.0.0',
     date: 'November 9, 2026',
     type: 'major',
