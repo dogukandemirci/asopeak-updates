@@ -1,5 +1,24 @@
 export const changelogEntries = [
   {
+    version: '1.0.2',
+    date: 'November 16, 2026',
+    type: 'improvement',
+    changes: [
+      "Find trending keywords: Top keywords has a new Trend filter (Trending Up, Trending Down, New This Month).",
+      "General UI improvements and fixes.",
+    ],
+    sections: [
+      {
+        type: 'improvement',
+        changes: [
+          "Find trending keywords: Top keywords has a new Trend filter (Trending Up, Trending Down, New This Month).",
+          "General UI improvements and fixes.",
+        ]
+      },
+    ]
+  },
+
+  {
     version: '1.0.1',
     date: 'November 15, 2026',
     type: 'improvement',
